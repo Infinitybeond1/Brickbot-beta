@@ -56,11 +56,9 @@ client
 const path = require('path');
 
 client.registry
-    .registerGroups([
-			['Moderation','Moderation commands']
-			['Fun','Fun commands']
+
 		
-		])
+		
 		// Registers all built-in groups, commands, and argument types
     .registerDefaults()
 
